@@ -1,0 +1,22 @@
+.inform{
+    height: 200px;
+    margin-top: 96px;
+    margin-bottom:40px; 
+ 
+    
+}
+
+.duvidas ul li a{
+    color:#401425;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 20px;
+ 
+     
+ 
+}
+
+.duvidas ul li:nth-child(2){
+    margin: 20px 0;
+}
+
