@@ -2,15 +2,15 @@
 
 .btn{
     padding: 10px 30px;
-    border: 3px solid #401425;
-    border-color: #401425;
+    border: 3px solid #711522;
+    border-color: #711522;
     background: none;
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
     letter-spacing: .1em;
     font-weight: bold;
-    color: #401425;
+    color: #711522;
     
 }
 
@@ -44,7 +44,7 @@ h2{
     padding: 15px 0;
     top: 0;
     position: fixed;
-    z-index: 10;
+    z-index: 1;
     
 
 }
@@ -67,7 +67,7 @@ h2{
 }
 
 .header-menu ul li a{
-    color: #401425;
+    color: #711522;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -115,7 +115,7 @@ h2{
 .consciente p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
-    color: #471929;
+    color: #711522;
     text-align: center;
     padding: 25px 0;
 }
@@ -140,3 +140,109 @@ margin: 60px 0;
 text-align: center;
 }
 
+
+
+
+/* Modal */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+.modal_cadastro{
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+  
+
+}
+
+.container_modal{
+    margin-top: 80px;
+}
+
+.flex{
+ margin-top: 50px; 
+    text-align: right;
+}
+
+.flex p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    margin: 6px 0;
+}
+
+
+/* style form */
+
+.modal_cadastro label{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom:4px; 
+    
+}
+
+.modal_cadastro input{
+    
+    width: 200px;
+    border: 3px solid #711522;
+    background: none;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    
+    
+
+}
+
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #FF5193;
+}
